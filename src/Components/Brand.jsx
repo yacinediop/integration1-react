@@ -14,11 +14,11 @@ const Brand = () => {
                 <p className="parabrand pb-5">We are a full-service ceative agency specializing in helping brands grow fast
                     Engage your clients through compelling visuals that do most of the marketing for you.
                 </p>
-                <a href="#" className="mt-5 mb-5 more text-dark">LEARN MORE</a>
+                <a href="/" className="mt-5 mb-5 more text-dark">LEARN MORE</a>
             </div>
             <div className="col-lg-6 col-sm-12 col-md-12">
             <div data-aos="flip-left">
-                    <img src={Transform} className="img-fluid brd" />
+                    <img src={Transform} alt="frt" className="img-fluid brd" />
                 </div>
             </div>
         </section>

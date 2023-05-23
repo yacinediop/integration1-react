@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-    import  { Button, Container, Nav, Navbar,  }from 'react-bootstrap';
+    import  {  Nav, Navbar,  }from 'react-bootstrap';
     import Down from "./Image/icon-arrow-down.svg";
     
     const NavBar = () => {
@@ -22,7 +22,7 @@ import 'aos/dist/aos.css';
                <Nav.Link href="#home"><span className='text-white ms-2'>Home</span></Nav.Link>
                <Nav.Link href="#skills" ><span className='text-white ms-2'>Skills</span></Nav.Link>
                <Nav.Link href="#projects" ><span className='text-white me-2'>Projects</span></Nav.Link>
-               <a href="#">
+               <a href="/">
                 <button className='boutton bg-none'>Connect</button>
                </a>
              </Nav>
@@ -31,7 +31,7 @@ import 'aos/dist/aos.css';
       </Navbar>
       <h1 className=" creer pt-5 ">WE ARE CREATIVES?</h1>
           <div data-aos="fade-up" className="arrow">
-              <img src={Down}  className="do"/>
+              <img src={Down} alt="gi" className="do"/>
           </div>
         </section>
       

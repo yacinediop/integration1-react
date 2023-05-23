@@ -3,7 +3,7 @@ import imgHeader from "./Image/image-header.jpg";
 const Header = () =>{
     return(
         <div className="header">
-           <img src={imgHeader} className="img-fluid" />
+           <img src={imgHeader} alt="TYR" className="img-fluid" />
         </div>
     )
 }

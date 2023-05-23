@@ -17,28 +17,28 @@ const Photos= () => {
                <div data-aos="flip-left"
                    data-aos-easing="ease-out-cubic"
                    data-aos-duration="2000">
-                      <img src={milk} className="img-fluid tof" />
+                      <img src={milk} alt="vol" className="img-fluid tof" />
                 </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-md-12">
                 <div data-aos="flip-left"
                    data-aos-easing="ease-out-cubic"
                    data-aos-duration="2000">
-                      <img src={Orange} className="img-fluid tof" />
+                      <img src={Orange} alt="orange" className="img-fluid tof" />
                 </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-md-12">
                 <div data-aos="flip-left"
                    data-aos-easing="ease-out-cubic"
                    data-aos-duration="2000">
-                     <img src={cone} className="img-fluid tof" />
+                     <img src={cone} alt="cone" className="img-fluid tof" />
                 </div>
             </div>
             <div className="col-lg-3 col-sm-6 col-md-12">
                 <div data-aos="flip-left"
                    data-aos-easing="ease-out-cubic"
                    data-aos-duration="2000">
-                     <img src={cube} className="img-fluid tof" />
+                     <img src={cube} alt="cube" className="img-fluid tof" />
                 </div>
             </div>
             </div>

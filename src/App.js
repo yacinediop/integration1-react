@@ -1,6 +1,4 @@
 import NavBar from './Components/NavBar'
-import Header from './Components/Header';
-import Icons from './Components/Icons';
 import Brand from './Components/Brand';
 import Stand from './Components/Stand';
 import Collection from './Components/Collection';
